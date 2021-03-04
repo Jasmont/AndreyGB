@@ -1,6 +1,3 @@
-from datetime import datetime
-import calendar
-
 SECS = 60
 MINS = 60
 HOURS = 24
