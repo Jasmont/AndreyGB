@@ -44,7 +44,7 @@ def task_4():
     original_list = ['инженер-конструктор Игорь', 'главный бухгалтер МАРИНА', 'токарь высшего разряда нИКОЛАй',
                      'директор аэлита']
     for i in original_list:
-        print(f'Привет, {i.split()[-1].lower().capitalize()}!')
+        print(f'Привет, {i.split()[-1].title()}!')
 
 
 def task_5():
@@ -52,7 +52,7 @@ def task_5():
 
     print('\nTask 4')
 
-    original_list = [57.8, 46.51, 97] + [round(random.uniform(10., 100.), 2) for i in range(7)]
+    original_list = [57.8, 46.51, 97] + [round(random.uniform(10., 100.), 2) for _ in range(7)]
 
     print('Original list: ' + str(original_list))
 
